@@ -1,0 +1,92 @@
+body {
+    margin: 10px;
+    background-color: rgb(35, 35, 35)
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.box {
+    height: auto;
+    width: auto;
+    padding: 10%;
+    text-align: center;
+}
+
+.grid-1 { 
+    grid-area: 1 / 1 / 2 / 2; 
+    background-color: red;
+}
+.grid-2 { 
+    grid-area: 1 / 2 / 2 / 3; 
+    background-color: green;
+}
+.grid-3 { 
+    grid-area: 1 / 3 / 2 / 4; 
+    background-color: orangered;
+}
+.grid-4 { 
+    grid-area: 1 / 4 / 2 / 5; 
+    background-color: greenyellow;
+}
+.grid-5 { 
+    grid-area: 1 / 5 / 2 / 6; 
+    background-color: orange;
+}
+.grid-6 { 
+    grid-area: 1 / 6 / 2 / 7; 
+    background-color: mediumseagreen;
+}
+.grid-7 { 
+    grid-area: 2 / 1 / 3 / 2; 
+    background-color: red;
+}
+.grid-8 { 
+    grid-area: 2 / 2 / 3 / 3; 
+    background-color: green;
+}
+.grid-9 { 
+    grid-area: 2 / 3 / 3 / 4; 
+    background-color: orangered;
+}
+.grid-10 { 
+    grid-area: 2 / 4 / 3 / 5; 
+    background-color: greenyellow;
+}
+.grid-11 { 
+    grid-area: 2 / 5 / 3 / 6; 
+    background-color: orange;
+}
+.grid-12 { 
+    grid-area: 2 / 6 / 3 / 7; 
+    background-color: mediumseagreen;
+}
+.grid-13 { 
+    grid-area: 3 / 1 / 4 / 2; 
+    background-color: red;
+}
+.grid-14 { 
+    grid-area: 3 / 2 / 4 / 3; 
+    background-color: green;
+}
+.grid-15 { 
+    grid-area: 3 / 3 / 4 / 4;
+    background-color: orangered; 
+}
+.grid-16 { 
+    grid-area: 3 / 4 / 4 / 5; 
+    background-color: greenyellow;
+}
+.grid-17 { 
+    grid-area: 3 / 5 / 4 / 6;
+    background-color: orange; 
+}
+.grid-18 { 
+    grid-area: 3 / 6 / 4 / 7; 
+    background-color: mediumseagreen;
+}
